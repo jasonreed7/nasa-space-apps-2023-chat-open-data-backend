@@ -1,0 +1,118 @@
+Air Quality indicator data for NYC
+Created _10/24/2014____
+Last Updated 010/20/2020
+Sarah Johnson, DOHMH
+What’s In This Dataset?
+Air pollution is one of the most important environmental threats to urban populations
+and while all people are exposed, pollutant emissions, levels of exposure, and
+population vulnerability vary across neighborhoods. Exposures to common air pollutants
+have been linked to respiratory and cardiovascular diseases, cancers, and premature
+deaths. These indicators provide a perspective across time and NYC geographies to
+better characterize air quality and health in NYC. Data can also be explored online at
+the Environment and Health Data Portal: http://nyc.gov/health/environmentdata.
+Who Manages This Data?
+NYC DOHMH – Environmental Health, the Bureau of Environmental Surveillance and
+Policy
+Get Started With This Data:
+Data is provided at multiple geographic aggregations and also for multiple time periods,
+so be sure to filter for the data you need in your analyses. This indicator data can be
+divided into a few subject areas as below:
+Outdoor Air Pollutants
+Estimated annual average concentrations calculated from a model that used NYC
+Community Air Survey measurements.
+• Fine Particulate Matter (PM2.5) Fine particles are emitted by vehicles, building boilers,
+and other combustion - and are a major form of air pollution that harms health.
+• Nitrogen Dioxide (NO2) Nitrogen oxides (NOx), which include nitric oxide (NO) and
+nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause
+damage to lung tissue, breathing and respiratory problems, as well as contribute to
+smog and acid rain.
+• Sulfur Dioxide (SO2) Sulfur dioxide comes from burning certain types of fuel oil. As an
+air pollutant, it can can worsen lung diseases.
+• Ozone (O3) Ozone is a common air pollutant that can harm breathing and worsen
+asthma and other respiratory conditions.
+Health Burden: Fine Particles (PM2.5) 
+Estimated health events attributable to PM2.5 exposure over natural background levels
+in NYC (average annual rate per 100,000 residents).
+• PM2.5-Attributable Deaths Estimating deaths that can be linked to PM2.5 is a
+way to understand how air pollution increases mortality.
+• PM2.5-Attributable Asthma Emergency Department Visits PM2.5-attributable
+asthma ED visits represent part of the health burden imposed by fine particle air
+pollution.
+• PM2.5-Attributable Respiratory Hospitalizations (Adults 20 Yrs and Older)
+Estimating hospitalizations that can be linked to PM2.5 is a way to understand
+how air pollution impacts public health.
+• PM2.5-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older)
+PM2.5-attributable cardiovascular hospitalizations represent part of the health
+burden imposed by fine particle air pollution.
+• PM2.5-Attributable Asthma Emergency Department Visits PM2.5-attributable
+asthma ED visits represent part of the health burden imposed by fine particle air
+pollution.
+Outdoor Air Toxics
+Estimated annual average concentrations of known carcinogens that are part of a class
+of pollutants also known as hazardous air pollutants.
+• Air Toxics Concentrations- Average Benzene Concentrations Benzene is an air
+pollutant resulting from motor vehicle and industrial emissions and tobacco 
+smoke. Benzene is a known carcinogen that can also harm bone marrow and red
+blood cell function.
+• Air Toxics Concentrations- Average Formaldehyde Concentrations
+Formaldehyde is an air pollutant resulting from car exhaust and the manufacture
+of industrial products. Formaldehyde is a known carcinogen that can also cause
+irritation to eyes and lungs and increase risk of asthma and trigger asthma
+symptoms.
+Traffic Density
+Estimated millions of annual vehicle miles traveled per km2. Vehicle miles traveled is an
+indicator of emissions from automobile exhaust, brake wear and tire wear.
+• Traffic Density- Annual Vehicle Miles Traveled Traffic density is a measure of
+the average number of vehicles that occupy specified area. Traffic density can
+influence health as a source of air pollution and traffic-related injuries.
+• Traffic Density- Annual Vehicle Miles Traveled for Cars Traffic density is a
+measure of the average number of vehicles that occupy specified area. Traffic
+density can influence health as a source of air pollution and traffic-related
+injuries.
+• Traffic Density- Annual Vehicle Miles Traveled for Trucks Traffic density is a
+measure of the average number of vehicles that occupy specified area. Traffic
+density can influence health as a source of air pollution and traffic-related
+injuries.
+Heating Fuel Emissions
+Estimated annual boiler emissions per km2 as of January 2015. Calculated using
+heating fuel type on NYC boiler permits and estimates of boiler activity.
+• Boiler Emissions- Total SO2 Emissions Boilers are a common source of SO2,
+which can worsen lung disease.
+• Boiler Emissions- Total PM2.5 Emissions Boilers are a common source of
+PM2.5, which can harm health.
+• Boiler Emissions- Total NOx Emissions Boilers are a common source of NOx
+emissions, which can harm health.
+The New York City Community Air Survey (NYCCAS) collects data as part of a study of
+neighborhood level variation of street-level ambient air quality in New York City. Raw
+monitored data was adjusted for weather and season and modeled to account for
+nearby emission sources and landscape factors in order to describe distribution of
+pollution across NYC. These models are used to predict at seasonal average pollution 
+levels at unmonitored locations starting in December 2008. Seasonal average values
+were averaged to create annual average predicted surfaces for nitrogen dioxide (NO2),
+fine particulate matter (PM2.5), black carbon (BC), and nitric oxide (NO); summer
+average values are reported for ozone (O3) and winter average for sulfur dioxide (SO2).
+As these are estimated annual average levels produced by a statistical model, they are
+not comparable to short term localized monitoring or monitoring done for regulatory
+purposes. For description of NYCCAS design and Land Use Regression Modeling
+process see: https://nyc-ehs.net/report
+Example questions:
+1. What neighborhoods of NYC have highest average levels of fine particulates?
+2. Are high levels of health burden from PM 2.5 in my neighborhood rising or
+falling?
+3. Have the Ozone levels in my neighborhood gone down or up over the last few
+years?
+Columns (Fields, Attributes):
+Column Name Column Description
+unique_id Unique record identifier
+indicator_id Identifier of the type of measured value across time and space
+name Name of the indicator
+measure How the indicator is measured
+measure_info Information (such as units) about the measure
+geo_type_name Geography type
+geo_join_id Identifier of the neighborhood geographic area, used for joining to
+mapping geography files to make thematic maps
+geo_place_name Neighborhood name
+time_period Description of the time that the data applies to
+start_date Date value for the start of the time_period
+data_value The actual data value for this indicator, measure, place, and time
+message Notes that apply to the data value

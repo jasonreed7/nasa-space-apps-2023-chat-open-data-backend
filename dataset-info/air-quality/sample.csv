@@ -1,0 +1,29 @@
+Unique ID	Indicator ID	Name	Measure	Measure Info	Geo Type Name	Geo Join ID	Geo Place Name	Time Period	Start_Date	Data Value	Message
+216498	386	Ozone (O3)	Mean	ppb	CD	313	Coney Island (CD13)	Summer 2013	6/1/13	34.64	
+216499	386	Ozone (O3)	Mean	ppb	CD	313	Coney Island (CD13)	Summer 2014	6/1/14	33.22	
+219969	386	Ozone (O3)	Mean	ppb	Borough	1	Bronx	Summer 2013	6/1/13	31.25	
+219970	386	Ozone (O3)	Mean	ppb	Borough	1	Bronx	Summer 2014	6/1/14	31.15	
+164876	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	211	Morris Park and Bronxdale (CD11)	Winter 2008-09	12/1/08	5.89	
+164877	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	212	Williamsbridge and Baychester (CD12)	Winter 2008-09	12/1/08	5.75	
+219971	386	Ozone (O3)	Mean	ppb	Borough	2	Brooklyn	Summer 2009	6/1/09	26.27	
+219972	386	Ozone (O3)	Mean	ppb	Borough	2	Brooklyn	Summer 2010	6/1/10	33.83	
+164878	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	301	Greenpoint and Williamsburg (CD1)	Winter 2008-09	12/1/08	4.33	
+164879	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	302	Fort Greene and Brooklyn Heights (CD2)	Winter 2008-09	12/1/08	4.41	
+164880	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	303	Bedford Stuyvesant (CD3)	Winter 2008-09	12/1/08	4.73	
+164881	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	304	Bushwick (CD4)	Winter 2008-09	12/1/08	4.71	
+164882	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	305	East New York and Starrett City (CD5)	Winter 2008-09	12/1/08	3.78	
+164883	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	306	Park Slope and Carroll Gardens (CD6)	Winter 2008-09	12/1/08	3.94	
+164884	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	307	Sunset Park (CD7)	Winter 2008-09	12/1/08	3.78	
+164885	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	308	Crown Heights and Prospect Heights (CD8)	Winter 2008-09	12/1/08	4.79	
+219973	386	Ozone (O3)	Mean	ppb	Borough	2	Brooklyn	Summer 2011	6/1/11	33.19	
+219974	386	Ozone (O3)	Mean	ppb	Borough	2	Brooklyn	Summer 2012	6/1/12	33.89	
+219975	386	Ozone (O3)	Mean	ppb	Borough	2	Brooklyn	Summer 2013	6/1/13	31.13	
+219976	386	Ozone (O3)	Mean	ppb	Borough	2	Brooklyn	Summer 2014	6/1/14	31.29	
+164930	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	206	Belmont and East Tremont (CD6)	Winter 2009-10	12/1/09	5.3	
+164931	383	Sulfur Dioxide (SO2)	Mean	ppb	CD	207	Kingsbridge Heights and Bedford (CD7)	Winter 2009-10	12/1/09	7.49	
+130355	639	PM2.5-Attributable Deaths	Estimated Annual Rate - Adults 30 Yrs and Older	"per 100,000 adults"	UHF42	101	Kingsbridge - Riverdale	2005-2007	1/1/05	117.7	
+130356	639	PM2.5-Attributable Deaths	Estimated Annual Rate - Adults 30 Yrs and Older	"per 100,000 adults"	UHF42	102	Northeast Bronx	2005-2007	1/1/05	77.3	
+130357	639	PM2.5-Attributable Deaths	Estimated Annual Rate - Adults 30 Yrs and Older	"per 100,000 adults"	UHF42	103	Fordham - Bronx Pk	2005-2007	1/1/05	67.3	
+130358	639	PM2.5-Attributable Deaths	Estimated Annual Rate - Adults 30 Yrs and Older	"per 100,000 adults"	UHF42	104	Pelham - Throgs Neck	2005-2007	1/1/05	73.6	
+130359	639	PM2.5-Attributable Deaths	Estimated Annual Rate - Adults 30 Yrs and Older	"per 100,000 adults"	UHF42	105	Crotona -Tremont	2005-2007	1/1/05	65.8	
+130360	639	PM2.5-Attributable Deaths	Estimated Annual Rate - Adults 30 Yrs and Older	"per 100,000 adults"	UHF42	106	High Bridge - Morrisania	2005-2007	1/1/05	84.8	
