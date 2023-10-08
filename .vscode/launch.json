@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Populate data",
             "type": "python",
             "request": "launch",
             // "program": "${file}",
@@ -14,6 +14,14 @@
             "justMyCode": false,
             "envFile": "${workspaceFolder}/.env",
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run API",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": ["app.main:app","--reload"],
+            "justMyCode": false
         }
     ]
 }

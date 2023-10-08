@@ -9,6 +9,9 @@ retry = "*"
 sqlalchemy = "*"
 pgvector = "*"
 psycopg2 = "*"
+fastapi = "*"
+uvicorn = "*"
+cd = "*"
 
 [dev-packages]
 

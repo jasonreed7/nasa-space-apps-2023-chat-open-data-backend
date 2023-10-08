@@ -1,0 +1,108 @@
+Time,GeoTypeDesc,GeoID,GeoRank,Geography,"Age-adjusted rate per 10,000","Estimated annual rate per 10,000",Number
+2020,Citywide,1,0,New York City,48.4,47.7,"33,238"
+2020,Borough,1,1,Bronx,96.3,96.5,"10,651"
+2020,Borough,2,1,Brooklyn,48.9,48,"10,137"
+2020,Borough,3,1,Manhattan,44.7,43.5,"6,290"
+2020,Borough,4,1,Queens,26.3,25.4,"4,873"
+2020,Borough,5,1,Staten Island,35.1,33.2,"1,287"
+2020,UHF 42,101,4,Kingsbridge - Riverdale,25.4,24.7,189
+2020,UHF 42,102,4,Northeast Bronx,67,62.6,"1,039"
+2020,UHF 42,103,4,Fordham - Bronx Pk,75.6,76.3,"1,550"
+2020,UHF 42,104,4,Pelham - Throgs Neck,65.6,65.3,"1,554"
+2020,UHF 42,105,4,Crotona -Tremont,129.3,130,"2,046"
+2020,UHF 42,106,4,High Bridge - Morrisania,150.5,151.9,"2,454"
+2020,UHF 42,107,4,Hunts Point - Mott Haven,149.7,150,"1,552"
+2020,UHF 42,201,4,Greenpoint,25,21.3,247
+2020,UHF 42,202,4,Downtown - Heights - Slope,35.7,31.8,719
+2020,UHF 42,203,4,Bedford Stuyvesant - Crown Heights,90.5,89.6,"2,485"
+2020,UHF 42,204,4,East New York,94.2,94.3,"1,424"
+2020,UHF 42,205,4,Sunset Park,26.4,25.5,245
+2020,UHF 42,206,4,Borough Park,10.3,10.2,249
+2020,UHF 42,207,4,East Flatbush - Flatbush,57.1,55.4,"1,350"
+2020,UHF 42,208,4,Canarsie - Flatlands,52.4,50.6,850
+2020,UHF 42,209,4,Bensonhurst - Bay Ridge,10,9.9,171
+2020,UHF 42,210,4,Coney Island - Sheepshead Bay,22.9,21.8,527
+2020,UHF 42,211,4,Williamsburg - Bushwick,87.6,85.3,"1,499"
+2020,UHF 42,301,4,Washington Heights,31.4,31.1,704
+2020,UHF 42,302,4,Central Harlem - Morningside Heights,127.1,126.3,"1,915"
+2020,UHF 42,303,4,East Harlem,148.7,147.5,"1,360"
+2020,UHF 42,304,4,Upper West Side,21.2,20.7,404
+2020,UHF 42,305,4,Upper East Side,11.7,10.4,199
+2020,UHF 42,306,4,Chelsea - Clinton,32.7,30.9,462
+2020,UHF 42,307,4,Gramercy Park - Murray Hill,13.2,12.5,161
+2020,UHF 42,308,4,Greenwich Village - SoHo,10.8,10.8,80
+2020,UHF 42,309,4,Union Square - Lower East Side,38,37,633
+2020,UHF 42,310,4,Lower Manhattan,24.5,20.9,117
+2020,UHF 42,401,4,Long Island City - Astoria,25.9,24.1,434
+2020,UHF 42,402,4,West Queens,18.7,18.5,698
+2020,UHF 42,403,4,Flushing - Clearview,10.4,9.3,204
+2020,UHF 42,404,4,Bayside - Little Neck,4.3,4.2,32
+2020,UHF 42,405,4,Ridgewood - Forest Hills,18.3,17.4,382
+2020,UHF 42,406,4,Fresh Meadows,17.7,16.2,131
+2020,UHF 42,407,4,Southwest Queens,26.2,26.1,586
+2020,UHF 42,408,4,Jamaica,46.3,45.3,"1,191"
+2020,UHF 42,409,4,Southeast Queens,26.8,25,451
+2020,UHF 42,410,4,Rockaways,64.3,60.6,625
+2020,UHF 42,501,4,Port Richmond,71.4,71.1,380
+2020,UHF 42,502,4,Stapleton - St. George,53.2,51.4,523
+2020,UHF 42,503,4,Willowbrook,23.1,20.7,156
+2020,UHF 42,504,4,South Beach - Tottenville,14,13.1,207
+2020,Community District,101,6,Financial District (CD1),17.9,14.6,80
+2020,Community District,102,6,Greenwich Village and Soho (CD2),9.8,9.7,81
+2020,Community District,103,6,Lower East Side and Chinatown (CD3),44.9,43.9,661
+2020,Community District,104,6,Clinton and Chelsea (CD4),28.6,26.6,364
+2020,Community District,105,6,Midtown (CD5),21.5,20,116
+2020,Community District,106,6,Stuyvesant Town and Turtle Bay (CD6),11.9,11.3,150
+2020,Community District,107,6,Upper West Side (CD7),21.3,20.7,382
+2020,Community District,108,6,Upper East Side (CD8),11.2,10.1,198
+2020,Community District,109,6,Morningside Heights and Hamilton Heights (CD9),53.7,52.3,480
+2020,Community District,110,6,Central Harlem (CD10),166.2,164.8,"1,504"
+2020,Community District,111,6,East Harlem (CD11),155.5,154.2,"1,510"
+2020,Community District,112,6,Washington Heights and Inwood (CD12),32.2,31.9,509
+2020,Community District,201,6,Mott Haven and Melrose (CD1),202.4,202.2,"1,457"
+2020,Community District,202,6,Hunts Point and Longwood (CD2),111.5,111.4,460
+2020,Community District,203,6,Morrisania and Crotona (CD3),154,155.6,"1,018"
+2020,Community District,204,6,Highbridge and Concourse (CD4),114.4,116.4,"1,349"
+2020,Community District,205,6,Fordham and University Heights (CD5),108.7,108.9,"1,082"
+2020,Community District,206,6,Belmont and East Tremont (CD6),151.1,150.5,946
+2020,Community District,207,6,Kingsbridge Heights and Bedford (CD7),67,67.8,757
+2020,Community District,208,6,Riverdale and Fieldston (CD8),25.9,25.4,211
+2020,Community District,209,6,Parkchester and Soundview (CD9),77.9,78.1,"1,113"
+2020,Community District,210,6,Throgs Neck and Co-op City (CD10),43.3,40.5,402
+2020,Community District,211,6,Morris Park and Bronxdale (CD11),58.7,57.1,520
+2020,Community District,212,6,Williamsbridge and Baychester (CD12),90.9,89.1,"1,069"
+2020,Community District,301,6,Greenpoint and Williamsburg (CD1),38.5,33.6,536
+2020,Community District,302,6,Fort Greene and Brooklyn Heights (CD2),36.7,32.8,394
+2020,Community District,303,6,Bedford Stuyvesant (CD3),108.8,107.8,"1,270"
+2020,Community District,304,6,Bushwick (CD4),77.6,77.1,668
+2020,Community District,305,6,East New York and Starrett City (CD5),101.2,100.7,"1,346"
+2020,Community District,306,6,Park Slope and Carroll Gardens (CD6),32.9,27.7,263
+2020,Community District,307,6,Sunset Park (CD7),26.7,25.1,267
+2020,Community District,308,6,Crown Heights and Prospect Heights (CD8),77.9,75.8,607
+2020,Community District,309,6,South Crown Heights and Lefferts Gardens (CD9),57.1,55.6,442
+2020,Community District,310,6,Bay Ridge and Dyker Heights (CD10),9,8.6,103
+2020,Community District,311,6,Bensonhurst (CD11),9.1,8.9,153
+2020,Community District,312,6,Borough Park (CD12),7.6,7.4,102
+2020,Community District,313,6,Coney Island (CD13),39.9,37.8,349
+2020,Community District,314,6,Flatbush and Midwood (CD14),36.6,36.2,468
+2020,Community District,315,6,Sheepshead Bay (CD15),11,10.4,150
+2020,Community District,316,6,Brownsville (CD16),170.5,168.2,"1,040"
+2020,Community District,317,6,East Flatbush (CD17),73.3,69.4,868
+2020,Community District,318,6,Flatlands and Canarsie (CD18),49.8,48.6,740
+2020,Community District,401,6,Long Island City and Astoria (CD1),26.5,25.4,430
+2020,Community District,402,6,Woodside and Sunnyside (CD2),10.2,9.8,128
+2020,Community District,403,6,Jackson Heights (CD3),18.4,18,258
+2020,Community District,404,6,Elmhurst and Corona (CD4),18.9,18.8,283
+2020,Community District,405,6,Ridgewood and Maspeth (CD5),22.7,22.1,288
+2020,Community District,406,6,Rego Park and Forest Hills (CD6),14,12.8,126
+2020,Community District,407,6,Flushing and Whitestone (CD7),10,8.9,200
+2020,Community District,408,6,Hillcrest and Fresh Meadows (CD8),20.8,19.5,248
+2020,Community District,409,6,Kew Gardens and Woodhaven (CD9),28.1,28.2,326
+2020,Community District,410,6,South Ozone Park and Howard Beach (CD10),26.5,26.1,261
+2020,Community District,411,6,Bayside and Little Neck (CD11),4.4,4.2,42
+2020,Community District,412,6,Jamaica and Hollis (CD12),58.7,57.5,"1,071"
+2020,Community District,413,6,Queens Village (CD13),30,28,447
+2020,Community District,414,6,Rockaway and Broad Channel (CD14),76.6,72.2,625
+2020,Community District,501,6,St. George and Stapleton (CD1),58.9,57.4,834
+2020,Community District,502,6,South Beach and Willowbrook (CD2),26,24.8,283
+2020,Community District,503,6,Tottenville and Great Kills (CD3),12.9,11.7,149

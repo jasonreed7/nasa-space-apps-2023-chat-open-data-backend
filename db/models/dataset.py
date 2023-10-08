@@ -15,6 +15,3 @@ class Dataset(Base):
     description: Mapped[str] = mapped_column(Text)
     sampleData: Mapped[str] = mapped_column(Text)
     embedding: Mapped[List[float]] = mapped_column(Vector(384))
-
-
-Base.metadata.create_all(engine)

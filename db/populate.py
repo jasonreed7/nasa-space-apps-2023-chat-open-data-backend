@@ -2,12 +2,13 @@ import json
 import os
 
 from db.models.dataset import Dataset
-from db.setup import SessionLocal, get_db
+from db.setup import Base, SessionLocal, engine
 from embedding.embedding import embed
 
 
 def addDatasets():
-    # db = get_db()
+
+    Base.metadata.create_all(engine)
     db = SessionLocal()
 
     rootdir = "dataset-info"
