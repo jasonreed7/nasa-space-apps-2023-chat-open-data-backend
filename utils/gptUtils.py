@@ -8,6 +8,8 @@ from db.models.dataset import Dataset
 from db.queries.dataset_queries import searchDatasetsByEmbedding
 from embedding.embedding import embed
 
+# Hacky approach for hackathon: Have to restart API for each new conversation
+# TODO: Use a good tool for this stuff like langchain
 messageSent = False
 
 firstSystemPrompt = "Please parse the following message, identify  the research topics mentioned in the message, and return only the research topics as a JSON-formatted list of strings. The list should be the top level element, not in any enclosing object."
@@ -27,6 +29,8 @@ def handleMessage(db, userMessage):
             datasets.append(searchDatasetsByEmbedding(db, embed(topic)))
 
         return sendDataAnalysisPrompt(datasets)
+    else:
+        return sendFollowUpPrompt(userMessage)
 
 
 def sendTopicParsingMessage(userMessage):
@@ -57,12 +61,38 @@ def sendDataAnalysisPrompt(datasets: List[Dataset]):
         "content": prompt
     }]
 
+    history.append(message[0])
+
     completion = openai.ChatCompletion.create(
         model="gpt-4", messages=message)
 
     completionText = completion.choices[0].message.content
 
+    history.append({
+        "role": "assistant",
+        "content": completionText
+    })
+
     return "Here are some datasets on the topics you expressed interest in:\n\n" + datasetInfo + completionText
+
+
+def sendFollowUpPrompt(message):
+    history.append({
+        "role": "user",
+        "content": message
+    })
+
+    completion = openai.ChatCompletion.create(
+        model="gpt-4", messages=history)
+
+    completionText = completion.choices[0].message.content
+
+    history.append({
+        "role": "assistant",
+        "content": completionText
+    })
+
+    return completionText
 
 
 def num_tokens_from_messages(messages, model="gpt-3.5-turbo-0613"):
