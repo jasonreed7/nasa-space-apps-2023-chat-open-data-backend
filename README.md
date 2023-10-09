@@ -4,6 +4,10 @@ chatOpenData is a chatbot that helps users find groups of interdisciplinary rela
 
 It is powered by GPT-4, PostgresQL with pgVector for vector database powered dataset search, Hugging Face all-MiniLM-L6-v2 for embeddings, SQLAlchemy, FastAPI and React.
 
+## Screenshots
+
+![Pic 1](readme-images/pic-1.jpg) ![Pic 2](readme-images/pic-2.jpg) ![Pic 3](readme-images/pic-3.jpg) ![Pic 4](readme-images/pic-4.jpg)
+
 ## Setup
 
 Ensure you have access to a Postgres database with the pgVector extension installed.
