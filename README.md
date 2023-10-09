@@ -16,7 +16,7 @@ Run `db/populate.py` to create DB schema and populate with sample data. Sample r
 
 ## Running
 
-Run the "Run API" configuration in `.vscode/launch.json`. The API will by default be served on port 8000.
+Run the "Run API" configuration in `.vscode/launch.json`. The API will by default be served on port 8000. The sample data includes datasets on air quality, asthma and poverty rates.
 
 ## Frontend
 
